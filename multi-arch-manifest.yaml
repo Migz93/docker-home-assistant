@@ -1,0 +1,11 @@
+image: miguel1993/docker-home-assistant:develop
+manifests:
+  - image: miguel1993/docker-home-assistant:amd64
+    platform:
+      architecture: amd64
+      os: linux
+  - image: miguel1993/docker-home-assistant:arm64v8
+    platform:
+      architecture: arm64
+      os: linux
+      variant: v8
